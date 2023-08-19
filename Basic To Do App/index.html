@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="assets/style.css" rel="stylesheet" type="text/css">
+        <link rel="icon" type="image/x-icon" href="images/list-ul-solid.svg">
+        <title>Daily To Do List</title>
+    </head>
+
+    <body>
+        <div class="outer-div">
+            <div id="myDIV" class="header">
+                <div class="top-div">
+                    <img src="images/list-ul-solid2.svg" style="height:30px;" alt="list logo">
+                    <h2 style="margin:-3px;margin-left:8px;margin-bottom:20px;font-size:30px;">Daily To Do List</h2>
+                </div>
+                <div class="inner-div">
+                    <input type="text" id="myInput" placeholder="Enter Task Here..." maxlength="50">
+                    <span onclick="newElement()" class="addBtn">Add</span>
+                </div>
+            </div>
+        
+
+            <ul id="myUL">
+                <li>Buy Groceries</li>
+                <li class="checked">Water Plants</li>
+                <li>Do Exercise</li>
+                <li>Do Homework</li>
+            </ul>
+        </div>
+
+        <script src="assets/script.js"></script>
+
+    </body>
+
+</html>

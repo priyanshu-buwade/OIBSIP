@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    font-family: 'Monteserrat', sans-serif;
+    font-weight: 600;
+    transition-timing-function: ease;
+}
+body{
+    background-color: bisque;
+    color: bisque;
+}
+a{
+    text-decoration: none;
+    color: bisque;
+}
+.side-nav{
+    position: fixed;
+    left: 5px;
+    height:100%;
+    width: 15vw;
+    background-color: black;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-content{
+    position: absolute;
+    width: 85vw;
+    background-color: bisque;
+    top: 0;
+    right: 0;
+}
+.main-content-inner1{
+    background: url("images/leomessi.jpg") no-repeat center; 
+    background-size: cover;
+    aspect-ratio: 1.8;
+    position: relative;
+    margin-top: 3.5vh;
+    margin-bottom: 3.5vh;
+}
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+}
+.main-content-inner2{
+    background: url("images/wallpaperflare.com_wallpaper.jpg") no-repeat center; 
+    background-size: cover;
+    aspect-ratio: 1.8;
+    position: relative;
+    margin-top: 3.5vh;
+    margin-bottom: 3.5vh;
+}
+.hero-text1{
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+.main-content-inner4{
+    background: url("images/wallpaperflare.com_wallpaper1.jpg") no-repeat center; 
+    background-size: cover;
+    aspect-ratio: 1.8;
+    position: relative;
+    margin-top: 3.5vh;
+    margin-bottom: 3.5vh;
+}
+
+.hero-text4{
+    left: 23%;
+}
+.main-content-inner3{
+    background: url("images/peakpx.1.jpg") no-repeat center; 
+    background-size: contain;
+    aspect-ratio: 1.8;
+    position: relative;
+    margin-top: 3.5vh;
+    margin-bottom: 3.5vh;
+}
+.hero-text3{
+    display: flex;
+    justify-content:center;
+    flex-wrap:nowrap;
+    text-align: center;
+    position: relative;
+    top: 20%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+}
+.hero-text3-h2{
+    margin: 55px;
+}
+.main-content-inner5{
+    background: url("images/pxfuel.jpg") no-repeat center; 
+    background-size: cover;
+    aspect-ratio: 1.8;
+    position: relative;
+    margin-top: 3.5vh;
+    margin-bottom: 3.5vh;
+}
+#homebutton{
+    color: white;
+}
